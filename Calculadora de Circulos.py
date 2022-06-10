@@ -17,6 +17,7 @@ ac para Obter a Área da Circunferência
         Numero_1 = int(input("Insira o Diâmetro:"))
         print("D=2.r")
         print("{}=2.R=".format(Numero_1))
+        print("R={}/2=".format(Numero_1))
         print("R = ",Numero_1/2)
     elif operação == "d":
         Numero_1 = int(input("Insira o Raio:"))
