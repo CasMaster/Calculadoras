@@ -42,9 +42,9 @@ ac para Obter a Área da Circunferência
     again()
 
 def again():
-    calc_again = input("Gostaria de fazer outro cálculo?")
+    calc_again = input("Gostaria de fazer outro cálculo?(s/n)")
 
-    if calc_again.upper() =='Y':
+    if calc_again.upper() =='S':
         Calculate()
     elif calc_again.upper()=='N':
         print("Até Breve :)")
