@@ -23,7 +23,7 @@ ac para Obter a Área da Circunferência
     elif opr == "d":
         num1 = int(input("Insira o Raio:"))
         print("D = 2.r")
-        print("D ={}.2".format(num1))
+        print("D = {}.2".format(num1))
         print("D = ",num1*2)
     elif opr == "cc":
         num1 = int(input("Insira o Raio:"))
